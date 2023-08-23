@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 kolom dengan lebar yang sama */
+    grid-template-rows: repeat(6, 0fr); /* 6 baris dengan tinggi yang sama */
+    width: 240px;
+    height: 360px;
+    grid-gap: 0px; /* Jarak antar item */
+}
+
+.item {
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.yellow { background-color: yellow;}
+.black { background-color: black; color:aliceblue }
+.green { background-color: green; }
+.brown { background-color: rgb(123, 81, 34);color:aliceblue }
+.pink { background-color: pink; }
+.blue { background-color: blue; }
+.red { background-color: red; }
+.white { background-color: white; color: black; }
+.dark-blue { background-color: darkblue; }
+.gray { background-color: gray; }
+.orange { background-color: orange; }
+.purple { background-color: purple; color:aliceblue }
